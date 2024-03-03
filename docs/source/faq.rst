@@ -58,6 +58,39 @@ DTU bedeutet Data-Transfer-Unit. Das ist auch die Grundidee hinter Ahoy. AhoyDTU
 Im Groben und Ganzen ist die AhoyDTU aber weiterhin als Brücke (Connector) zu sehen.
 
 
+Kann Ahoy auch als Batteriewechselrichter eingesetzt werden?
+==============================================================
+
+Mit gewissen Voraussetzungen geht das. Hierfür muss der Wechselrichter so an den Akku angeschlossen werden dass die Kondensatoren am Eingang des Wechselrichters nicht zu schnell geladen werden (Strombegrenzung). Dies hier ist keine Anleitung wie man einen Wechselrichter in diesem Szenario einsetzt, soll aber grundsätzlich die Frage "ob das geht" beantworten.
+
+
+Ahoy betreiben
+*****************
+
+Kann man den Wechselrichter in der Leistung begrenzen?
+========================================================
+
+Ja der Wechselrichter ist begrenzbar. Man kann den Wechselrichter entweder prozentual oder in Watt begrenzen. Die Begrenzung kann über drei Wege von statten gehen:
+
+- über die Weboberfläche
+- per MqTT
+- per API Request
+
+Durch die ``MqtTT`` und ``API`` Schnittstellen können die Wechselrichter auch automatisiiert im (kleinen) Sekundenbereich limitiert werden, d.h. eine Nulleinspeisung über ein externes Skript ist möglich.
+
+
+Kann man den Wechselrichter auch dauerhaft auf 600W / 800W begrenzen?
+=======================================================================
+
+Ja die Wechselrichter bieten zwei Arten von Begrenzung: Eine temporäre Begrenzung (non persistent) und eine dauerhafte (persistent) Begrenzung. Es können auch beide gleichzeitig verwendet werden. Folgendes Szenario soll besser verständlich machen was gemeint ist:
+
+Es wird ein HM-1500 eingesetzt, also ein 1500W Wechselrichter. Dieser soll um einem Balkonkraftwerk zu entsprechen auf 800W begrenzt sein. Diese 800W Begrenzung kann dauerhaft im Wechselrichter hinterlegt werden. Startet der Wechselrichter nach einer Nacht (er schaltet ab, sobald an seinen Eingängen kein Strom mehr anliegt) wieder ein, so startet er mit maximal 800W. Hat man jetzt zusätzlich einen Bezugszähler im Zugriff könnte man bei viel Verbrauch diesen statischen Wert temporär z.B. mit 1000W überschreiben.
+
+.. note::
+
+   Der absolute Wert sollte nicht zu oft verändert werden, schon garnicht über ein Skript. Da der Wert fest im Wechselrichter gespeichert wird, könnte die Speicherzelle Schaden von zu häufigem Speichern nehmen. Bisher ist noch kein solcher Fall bekannt geworden, aber wir warnen seit Beginn. Alles was unter 10000 Schreibzyklen bleib sollte unkritisch sein (auf die Lebenszeit des Wechselrichters gesehen).
+
+
 Was sagen mir die Funkstatistiken (Radio Statisiken)?
 ========================================================
 
@@ -83,26 +116,6 @@ Klickt man in der Live-Ansicht unten auf den Balken, der sagt wann das letzte Pa
    ===================  =====
 
    Sind die ``RX no answer`` hoch kann es auch daran liegen, dass die DTU nachts versucht den / die Wechselrichter abzufragen. Das kann über eine Einstellung ``Pausieren in der Nacht`` abgestellt / reduziert werden.
-
-   +------------------+-------------------+
-   | Feld             | Beschreibung      |
-   +==================+===================+
-   | TX count         | NRF24             |
-   +------------------+-------------------+
-   | MI-xxxx          | NRF24             |
-   +------------------+-------------------+
-   | HMS-xxxx         | CMT2300A          |
-   +------------------+-------------------+
-   | HMT-xxxx         | CMT2300A          |
-   +------------------+-------------------+
-   | HMS-xxxxW        | nicht unterstützt |
-   +------------------+-------------------+
-
-
-Kann Ahoy auch als Batteriewechselrichter eingesetzt werden?
-==============================================================
-
-Mit gewissen Voraussetzungen geht das. Hierfür muss der Wechselrichter so an den Akku angeschlossen werden dass die Kondensatoren am Eingang des Wechselrichters nicht zu schnell geladen werden (Strombegrenzung). Dies hier ist keine Anleitung wie man einen Wechselrichter in diesem Szenario einsetzt, soll aber grundsätzlich die Frage "ob das geht" beantworten.
 
 
 Fehlersuche
