@@ -16,9 +16,10 @@ Optional kann in Ahoy ein MqTT-Broker angegeben werden, der regelmäßig mit akt
 
 In den Einstellungen von Ahoy beinhalten eine Sektion ``MqTT``:
 
-.. image:: docs\images\mqtt\mqttSettings.png
+.. image:: ..\images\mqtt\mqttSettings.png
   :width: 600
   :alt: MqTT Einstellungen
+
 
 Übermittelte Topics
 *********************
