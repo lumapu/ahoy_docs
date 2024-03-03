@@ -18,3 +18,4 @@ Inhalte
    mqtt
    api
    faq
+   protocol
