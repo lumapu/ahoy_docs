@@ -44,7 +44,3 @@ Jeder Inverter kann einzeln neu gestartet werden. Es gibt keine Bestätigung üb
 
     <TOPIC>/ctrl/restart/<INVERTER_ID>
 
-.. autosummary::
-   :toctree: generated
-
-   lumache

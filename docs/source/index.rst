@@ -19,3 +19,4 @@ Inhalte
    api
    faq
    protocol
+   zeroExport
