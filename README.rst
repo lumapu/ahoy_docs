@@ -1,9 +1,4 @@
-Template for the Read the Docs tutorial
-=======================================
+AhoyDTU documentation
+=======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This repository contains the entire documentation about the `AhoyDTU <https://github.com/lumapu/ahoy>`_ project. Feel free to contribute to both the project itself as well as the documentation.
