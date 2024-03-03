@@ -17,3 +17,4 @@ Inhalte
    usage
    mqtt
    api
+   faq
