@@ -15,4 +15,5 @@ Inhalte
 .. toctree::
 
    usage
+   mqtt
    api
