@@ -131,9 +131,15 @@ Mein Wechselrichter wird nicht erkannt
       :width: 400
       :alt: Screenshot des NRF24 Status in ``System``
 
-2. Ist es Tag oder Nacht? Der Wechselrichter antwortet nur solange er Strom von den Modulen bekommt, also nur tagsüber.
-3. Prüfen, ob die grüne / rote LED des Wechelrichters blinkt, nur dann ist eine Kommunikation möglich.
-4. Prüfen, ob das richtige Funkmodul im Einsatz ist:
+2. Die Anschlusseinstellungen für das NRF24 Modul prüfen. Im Bild der ESP8266 mit seinen NRF24 Einstellungen.
+
+   .. image:: ../images/faq/configPinNrf.png
+      :width: 400
+      :alt: Screenshot der NRF24 Anschlusseinstellungen für den ESP8266
+
+3. Ist es Tag oder Nacht? Der Wechselrichter antwortet nur solange er Strom von den Modulen bekommt, also nur tagsüber.
+4. Prüfen, ob die grüne / rote LED des Wechelrichters blinkt, nur dann ist eine Kommunikation möglich.
+5. Prüfen, ob das richtige Funkmodul im Einsatz ist:
 
    +------------------+-------------------+
    | Wechselrichter   | Funkmodul         |
@@ -154,3 +160,9 @@ In der Live Ansicht sind die Wechelrichter grau dargestellt und die Daten aktual
 ====================================================================================================
 
 Eine graue Darstellung bedeutet, dass Ahoy gerade keine erfolgreiche Funkverbindung mit dem Wechselrichter herstellen kann. Das sollte prinzipiell nur nachts so sein.
+
+
+Auf dem Display wird der Graph nicht angezeigt, obwohl er aktiviert wurde
+===========================================================================
+
+Wichtig bei dieser Funktion ist die Einstellung der Koordinaten unter "Sonnenauf- und -untergang". Die Position ist notwendig, um die Grenzen des Graphen berechnen zu können.
