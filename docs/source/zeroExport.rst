@@ -16,6 +16,27 @@ Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungs
 
 Um die Bedarfsoptimierte Leistungsregelung zu aktivieren, ...
 
+.. image:: ../images/zeroExport/zeroExportSettingsGroupGeneral.png
+  :width: 600
+  :alt: zeroExport Einstellungen Gruppe Allegemein - Default
+
+.. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
+  :width: 600
+  :alt: zeroExport Einstellungen Gruppe Zähler - Default
+
+.. image:: ../images/zeroExport/zeroExportSettingsGroupInverter.png
+  :width: 600
+  :alt: zeroExport Einstellungen Gruppe Inverter - Default
+
+.. image:: ../images/zeroExport/zeroExportSettingsGroupBattery.png
+  :width: 600
+  :alt: zeroExport Einstellungen Gruppe Batterie - Default
+
+.. image:: ../images/zeroExport/zeroExportSettingsGroupAdvanced.png
+  :width: 600
+  :alt: zeroExport Einstellungen Gruppe Erweiterte Einstellungen - Default
+
+
 Log
 *****
 
