@@ -8,7 +8,7 @@ Um das zu ermöglichen, wird die Leistung am Übergabepunkt (Zähler) gemessen u
 Konfiguration
 ***********
 
-In den Einstellungen von Ahoy beinhalten eine Sektion ``MqTT`` (hier zu sehen sind die Standardeintellungen):
+Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
 
 .. image:: ../images/zeroExport/zeroExportSettings.png
   :width: 600
