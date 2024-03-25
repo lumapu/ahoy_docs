@@ -16,21 +16,63 @@ Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungs
 
 Um die Bedarfsoptimierte Leistungsregelung zu aktivieren, ...
 
+Konfiguration einer Gruppe
+============================
+
+Allgemein
+-----------
+
 .. image:: ../images/zeroExport/zeroExportSettingsGroupGeneral.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Allegemein - Default
+
+``Gruppe`` ist die laufende Nummer der verfügbaren Gruppen und wird vom System vergeben.
+
+``Aktivieren`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. ACHTUNG: Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
+
+``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
+
+Zähler
+--------
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Zähler - Default
 
+Inverter
+----------
+
+Hier befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
+
 .. image:: ../images/zeroExport/zeroExportSettingsGroupInverter.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Inverter - Default
 
+``Id`` ist die laufende Nummer des der Gruppe angehörenden Wechselrichters und wird vom System automatisch vergeben.
+
+``Aktiviert`` entscheidet, ob der Wechselrichter geregelt wird oder nicht. ACHTUNG: Einen Wechselrichter erst aktivieren, wenn er vollständig konfiguriert ist.
+
+``Name`` ist der zu regelnde Wechselrichter. Er wird aus der Liste der in Ahoy konfigurierten Wechselricher ausgewählt.
+
+``Regelziel`` ist entweder ``Sum`` oder der Aussenleiter ``L1, L2, L3`` an dem der Wechselrichter einspeist.
+
+``Power (min)`` ist die minimale Leistung des Wechselrichters. Wird vom Wechselrichter eine kleinere Leistung gefordert, so wird der Wechselrichter ausgeschaltet. ACHTUNG: Bei Hoymiles bitte mehr als 2% der angegebenen Maximalleistung einstellen.
+
+``Power (max)`` ist die maximale Leistung des Wechselrichters. ACHTUNG: Bei Hoymiles bitte weniger als die angegebene Maximalleistung einstellen.
+
+Batterie
+----------
+
+Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktiviert ist, wird die Spannung der Batterie wird über jeden PV-Eingang 1 aller der Gruppe angehörenden Wechselrichter gemessen und mit den eingestellten Werten verglichen. Unterschreitet eine gemessene Spannung den Abschaltwert, werden alle der Gruppe angehörenden Wechselrichter ausgeschaltet. Sobald alle gemessenen Spannungen den Einschaltwert wieder überschreiten werden alle der Gruppe angehörenden Wechselrichter wieder eingeschaltet.
+
 .. image:: ../images/zeroExport/zeroExportSettingsGroupBattery.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Batterie - Default
+
+Erweitert
+-----------
+
+Hier befinden sich die Einstellungen für die Regelung.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupAdvanced.png
   :width: 600
