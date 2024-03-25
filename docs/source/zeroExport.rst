@@ -1,12 +1,12 @@
 Bedarfsoptimierte Leistungsregelung
-######
+#####################################
 
 Das Modul "Bedarfsoptimierte Leistungsregelung" ergänzt Ahoy um die Möglichkeit nur so viel Leistung(Strom) zu erzeugen wie im Haus benötigt wird.
 
 Um das zu ermöglichen, wird die Leistung am Übergabepunkt (Zähler) gemessen und die Wechselrichter entsprechend geregelt.
 
 Konfiguration
-***********
+***************
 
 Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
 
@@ -17,7 +17,7 @@ Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungs
 Um die Bedarfsoptimierte Leistungsregelung zu aktivieren, ...
 
 Log
-***********
+*****
 
 Die Bedarfsoptimierte Leistungsregelung hat zwei verschiedene Debugmöglichkeiten, die in der Konfiguration aktiviert werden können.
 - Log over Webserial
