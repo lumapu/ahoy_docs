@@ -26,7 +26,7 @@ Allgemein
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Allegemein - Default
 
-``Gruppe`` ist die laufende Nummer der verfügbaren Gruppen und wird vom System vergeben.
+``Gruppe`` wird vom System vergeben und ist eine Nummerierung der verfügbaren Gruppen.
 
 ``Aktivieren`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. ACHTUNG: Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
 
@@ -48,7 +48,7 @@ Hier befinden sich die Einstellungen für die der Gruppe angehörigen Wechselric
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Inverter - Default
 
-``Id`` ist die laufende Nummer des der Gruppe angehörenden Wechselrichters und wird vom System automatisch vergeben.
+``Inv`` wird vom System vergeben und ist eine Nummerierung der verfügbaren Wechselrichter in dieser Gruppe.
 
 ``Aktiviert`` entscheidet, ob der Wechselrichter geregelt wird oder nicht. ACHTUNG: Einen Wechselrichter erst aktivieren, wenn er vollständig konfiguriert ist.
 
