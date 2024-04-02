@@ -23,8 +23,11 @@ Was wird denn benötigt um so eine Regelung umzusetzen?
 ******************************************************
 
 + DTU (Ahoy)
+
 + denn passenden Wechselrichter
+
 + Smart Meter
+
 + und um den Smart Meter auszulesen (z.B. Tibber, Hichi, Volkszähler, oder andere).
 
 
@@ -45,7 +48,7 @@ Die Werte werden Summiert und werden dann für die Regelung mit einbezogen.
 Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
 Konfiguration einer Gruppe
-***************
+**************************
 
 Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken. Es sollte sich ein Formular öffnen.
 Siehe wie auf dem Bild.
@@ -67,10 +70,10 @@ Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter ein
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
 
 Dies kann man mittels einem
-*[Volkszähler](https://www.volkszaehler.org/), 
-*Hichi, 
-*[Tibber](https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
-etc..
+* Volkszähler (https://www.volkszaehler.org/), 
+* Hichi, 
+* Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
+* etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
