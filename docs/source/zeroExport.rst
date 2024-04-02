@@ -66,7 +66,11 @@ PowerMeter
 Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter eingerichtet werden.
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
 
-Dies kann man mittels einem [Volkszähler](https://www.volkszaehler.org/), Hichi, [Tibber](https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), etc..
+Dies kann man mittels einem
+*[Volkszähler](https://www.volkszaehler.org/), 
+*Hichi, 
+*[Tibber](https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
+etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
