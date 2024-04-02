@@ -60,12 +60,24 @@ Siehe wie auf dem Bild.
 
 ``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
 
-Zähler
---------
+PowerMeter
+----------
+
+Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter eingerichtet werden.
+Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
+
+Dies kann man mittels einem [Volkszähler](https://www.volkszaehler.org/), Hichi, [Tibber](https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Zähler - Default
+
+``Type`` Shelly, Tasmota, Mqtt, Hichi, Tibber
+``IP:`` IP-Adresse
+``JSON Path:`` data.json?node_id=1 (Tibber)
+``Username:``admin (Tibber)
+``Password:``Passwort steht auf dem Gateway
+
 
 Inverter
 ----------
