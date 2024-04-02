@@ -1,9 +1,24 @@
 Bedarfsoptimierte Leistungsregelung
 #####################################
 
-Das Modul "Bedarfsoptimierte Leistungsregelung" ergänzt Ahoy um die Möglichkeit nur so viel Leistung(Strom) zu erzeugen wie im Haus benötigt wird.
+Allgemein
+-----------
 
-Um das zu ermöglichen, wird die Leistung am Übergabepunkt (Zähler) gemessen und die Wechselrichter entsprechend geregelt.
+Das Modul 'Bedarfsoptimierte Leistungsregelung' (auch bekannt unter Zero-Export) erweitert Ahoy um die Möglichkeit, die WR nur so viel Strom zu erzeugen, wie im Haus benötigt wird.
+Dazu wird die Leistung am Übergabepunkt (Zähler) gemessen und die Wechselrichter entsprechend geregelt.
+Wir zeigen euch, wie Ihr es umsetzen könnt und was bei solch ein Projekt darauf zu beachten ist.
+
+Wichtig zu wissen: Diese erweiterte Funktion ist derzeit nur für Modelreihen der ESP32s verfügbar.
+
+Aber was ist denn genau 'Zero-Export'? Dafür ein kleiner Exkurs.
+
+Zero-Export
+-----------
+Unser Ahoy ist im 0%-Einspeise-Modus (Zero Export) wie ein Manager.
+Es werden die Inverter abgefragt und erzeugte PV-Leistung abgefragt. Die Messwerte an einer Messstelle (z.B. Zähler, Strommessgeräte) werden parallel erfasst und miteinander verrechnet. Um schlussendlich den Wert der überschüssigen Leistung zu erhalten.
+
+Dieser Wert wird an den Wechselrichter zurückgeliefert, damit dieser sich an den aktuellen Haushaltsverbrauch anpassen kann. 
+
 
 Konfiguration
 ***************
@@ -19,8 +34,7 @@ Um die Bedarfsoptimierte Leistungsregelung zu aktivieren, ...
 Konfiguration einer Gruppe
 ============================
 
-Allgemein
------------
+
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupGeneral.png
   :width: 600
