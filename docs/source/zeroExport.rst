@@ -45,7 +45,7 @@ Die Werte werden Summiert und werden dann für die Regelung mit einbezogen.
 Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
 Konfiguration einer Gruppe
-============================
+***************
 
 Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken. Es sollte sich ein Formular öffnen.
 Siehe wie auf dem Bild.
@@ -61,7 +61,7 @@ Siehe wie auf dem Bild.
 ``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
 
 PowerMeter
-----------
+***************
 
 Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter eingerichtet werden.
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
@@ -85,7 +85,7 @@ Dies kann man mittels einem [Volkszähler](https://www.volkszaehler.org/), Hichi
 
 
 Inverter
-----------
+***************
 
 Hier befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
 
@@ -106,7 +106,7 @@ Hier befinden sich die Einstellungen für die der Gruppe angehörigen Wechselric
 ``Power (max)`` ist die maximale Leistung des Wechselrichters. ACHTUNG: Bei Hoymiles bitte weniger als die angegebene Maximalleistung einstellen.
 
 Batterie
-----------
+***************
 
 Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktiviert ist, wird die Spannung der Batterie wird über jeden PV-Eingang 1 aller der Gruppe angehörenden Wechselrichter gemessen und mit den eingestellten Werten verglichen. Unterschreitet eine gemessene Spannung den Abschaltwert, werden alle der Gruppe angehörenden Wechselrichter ausgeschaltet. Sobald alle gemessenen Spannungen den Einschaltwert wieder überschreiten werden alle der Gruppe angehörenden Wechselrichter wieder eingeschaltet.
 
