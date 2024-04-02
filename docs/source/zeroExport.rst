@@ -19,6 +19,15 @@ Es werden die Inverter abgefragt und erzeugte PV-Leistung abgefragt. Die Messwer
 
 Dieser Wert wird an den Wechselrichter zurückgeliefert, damit dieser sich an den aktuellen Haushaltsverbrauch anpassen kann. 
 
+Was wird denn benötigt um so eine Regelung umzusetzen?
+******************************************************
+
++ DTU (Ahoy)
++ denn passenden Wechselrichter
++ Smart Meter
++ und um den Smart Meter auszulesen (z.B. Tibber, Hichi, Volkszähler, oder andere).
+
+
 
 Konfiguration
 ***************
@@ -29,20 +38,25 @@ Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungs
   :width: 600
   :alt: zeroExport Einstellungen - Default
 
-Um die Bedarfsoptimierte Leistungsregelung zu aktivieren, ...
+Hier gibt es die Möglichkeit bis zu fünf Gruppen zu hinterlegen. Diese haben hier denn Sinn mehrere Quellen der Verbraucher zu hinterlegen.
+Die Werte werden Summiert und werden dann für die Regelung mit einbezogen. 
+
+**Hinweis:** Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es Ratsam diesen alleine zu Nutzen. 
+Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
 Konfiguration einer Gruppe
 ============================
 
-
+Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken. Es sollte sich ein Formular öffnen.
+Siehe wie auf dem Bild.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupGeneral.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Allegemein - Default
 
-``Gruppe`` wird vom System vergeben und ist eine Nummerierung der verfügbaren Gruppen.
+``Gruppe`` wird vom System vergeben und ist gleichzeitig auch die ID der Gruppe.
 
-``Aktivieren`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. ACHTUNG: Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
+``Enabled`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. **ACHTUNG:** Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
 
 ``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
 
