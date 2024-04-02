@@ -73,10 +73,15 @@ Dies kann man mittels einem [Volkszähler](https://www.volkszaehler.org/), Hichi
   :alt: zeroExport Einstellungen Gruppe Zähler - Default
 
 ``Type`` Shelly, Tasmota, Mqtt, Hichi, Tibber
+
 ``IP:`` IP-Adresse
+
 ``JSON Path:`` data.json?node_id=1 (Tibber)
+
 ``Username:``admin (Tibber)
+
 ``Password:``Passwort steht auf dem Gateway
+
 
 
 Inverter
