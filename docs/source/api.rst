@@ -5,10 +5,10 @@ Ahoy verfügt über eine API-Schnittstelle. Hiermit ist es möglich Daten abzufr
 
 | Command | Description |
 | ------- | ----------- |
-| `inverter/list` |  |
-| `inverter/id/0` |  |
-| `inverter/alarm/0` |  |
-| `inverter/version/0` |  |
+| `inverter/list` | Liste an Inverter mit den aktuellen Daten des Inverters |
+| `inverter/id/0` | Liste an Daten des einen Inverters mit der ID 0 |
+| `inverter/alarm/0` | Liste an Alarme des einen Inverters mit der ID 0 |
+| `inverter/version/0` | Liste an Versionen des einen Inverters mit der ID 0 |
 | `generic` |  |
 | `index` |  |
 | `setup` |  |
