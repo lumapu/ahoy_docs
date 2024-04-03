@@ -75,8 +75,11 @@ Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle
 
 Dies kann man mittels einem
 +[Volkszähler](https://www.volkszaehler.org/), 
+
 +Hichi, 
+
 +Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
+
 +etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
