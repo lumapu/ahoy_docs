@@ -131,7 +131,7 @@ Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktivi
   :alt: zeroExport Einstellungen Gruppe Batterie - Default
 
 Fortgeschritten Einstellungen
------------------------------
+******************************
 
 Hier befinden sich die Einstellungen für die Regelung.
 
@@ -160,7 +160,7 @@ Hier befinden sich die Einstellungen für die Regelung.
 
 
 Log / Debug-Modus
-*****************
+-----------------
 
 Es existieren zwei Debugmöglichkeiten, die in der Konfiguration aktiviert werden können.
 - Log over Webserial
