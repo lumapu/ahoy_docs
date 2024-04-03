@@ -59,7 +59,9 @@ Siehe wie auf dem Bild.
 
 ``Gruppe`` wird vom System vergeben und ist gleichzeitig auch die ID der Gruppe.
 
-``Enabled`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. **ACHTUNG:** Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
+``Enabled`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. 
+
+**ACHTUNG:** Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
 
 ``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
 
