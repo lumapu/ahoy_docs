@@ -130,14 +130,33 @@ Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktivi
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Batterie - Default
 
-Erweitert
------------
+Fortgeschritten Einstellungen
+-----------------------------
 
 Hier befinden sich die Einstellungen für die Regelung.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupAdvanced.png
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Erweiterte Einstellungen - Default
+
+``SetPoint (Watt)`` Setzt die Leistung um den geregelt werden soll (Standard 0 Watt).
+
+
+``Refresh rate (sec)`` Aktualisierungsrate wie oft geregelt werden soll (Standard 10 sec.)
+
+
+``Power tolerances (Watt)`` Toleranz im dem nicht aktiv geregelt werden soll (Standard 10 Watt).
+
+
+``Group Power max (Watt)`` 
+
+
+``Kp:`` P-Regler https://de.wikipedia.org/wiki/Regler#P-Regler_(P-Anteil)
+
+``Ki:`` I-Regler https://de.wikipedia.org/wiki/Regler#I-Regler_(I-Anteil)
+
+``Kd:`` D-Regler https://de.wikipedia.org/wiki/Regler#D-Glied_(D-Anteil)
+
 
 
 Log / Debug-Modus
