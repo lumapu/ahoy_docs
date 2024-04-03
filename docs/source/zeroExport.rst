@@ -71,9 +71,11 @@ PowerMeter
 ***************
 
 Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter eingerichtet werden.
+
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
 
-Dies kann man mittels einem
+Mögliche Schnittstellen:
+
 +[Volkszähler](https://www.volkszaehler.org/), 
 
 +Hichi, 
