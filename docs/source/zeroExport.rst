@@ -76,13 +76,13 @@ Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle
 
 Mögliche Schnittstellen:
 
-+[Volkszähler](https://www.volkszaehler.org/), 
++ [Volkszähler](https://www.volkszaehler.org/), 
 
-+Hichi, 
++ Hichi, 
 
-+Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
++ Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
 
-+etc..
++ etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
