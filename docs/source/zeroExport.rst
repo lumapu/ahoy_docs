@@ -109,17 +109,17 @@ Im reiter Rubrik befinden sich die Einstellungen für die der Gruppe angehörige
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Inverter - Default
 
-``Inv`` wird vom System vergeben und ist eine Nummerierung der verfügbaren Wechselrichter in dieser Gruppe.
+``erste Spalte`` wird vom System vergeben und ist eine Nummerierung der verfügbaren Wechselrichter in dieser Gruppe.
 
-``Aktiviert`` entscheidet, ob der Wechselrichter geregelt wird oder nicht. ACHTUNG: Einen Wechselrichter erst aktivieren, wenn er vollständig konfiguriert ist.
+``Enabled`` entscheidet, ob der Wechselrichter geregelt wird oder nicht. ACHTUNG: Einen Wechselrichter erst aktivieren, wenn er vollständig konfiguriert ist.
 
 ``Name`` ist der zu regelnde Wechselrichter. Er wird aus der Liste der in Ahoy konfigurierten Wechselricher ausgewählt.
 
 ``Regelziel`` ist entweder ``Sum`` oder der Aussenleiter ``L1, L2, L3`` an dem der Wechselrichter einspeist.
 
-``Power (min)`` ist die minimale Leistung des Wechselrichters. Wird vom Wechselrichter eine kleinere Leistung gefordert, so wird der Wechselrichter ausgeschaltet. ACHTUNG: Bei Hoymiles bitte mehr als 2% der angegebenen Maximalleistung einstellen.
+``Power (min)`` ist die minimale Leistung des Wechselrichters. Wird vom Wechselrichter eine kleinere Leistung gefordert, so wird der Wechselrichter ausgeschaltet. **ACHTUNG**: Bei Hoymiles wird bei weniger als 2% der Leistung abgeschaltet.
 
-``Power (max)`` ist die maximale Leistung des Wechselrichters. ACHTUNG: Bei Hoymiles bitte weniger als die angegebene Maximalleistung einstellen.
+``Power (max)`` ist die maximale Leistung des Wechselrichters. **INFO**: Mehr Leistung als der WR kann ist nicht möglich.
 
 Batterie
 ***************
@@ -140,14 +140,17 @@ Hier befinden sich die Einstellungen für die Regelung.
   :alt: zeroExport Einstellungen Gruppe Erweiterte Einstellungen - Default
 
 
-Log
-*****
+Log / Debug-Modus
+*****************
 
-Die Bedarfsoptimierte Leistungsregelung hat zwei verschiedene Debugmöglichkeiten, die in der Konfiguration aktiviert werden können.
+Es existieren zwei Debugmöglichkeiten, die in der Konfiguration aktiviert werden können.
 - Log over Webserial
+
 - Log over MQTT
 
 Dabei werden je nach Modul der Regelung unterschiedliche JsonDatensätze ausgegeben.
+
+*Änderungen und Irrtümer vorbehalten*
 
 .. code-block:: bash
 
