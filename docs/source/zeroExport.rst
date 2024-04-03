@@ -35,22 +35,24 @@ Was wird denn benötigt um so eine Regelung umzusetzen?
 Konfiguration
 ***************
 
-Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
-
-.. image:: ../images/zeroExport/zeroExportSettings.png
-  :width: 600
-  :alt: zeroExport Einstellungen - Default
-
 Hier gibt es die Möglichkeit bis zu fünf Gruppen zu hinterlegen. Diese haben hier denn Sinn mehrere Quellen der Verbraucher zu hinterlegen.
 Die Werte werden Summiert und werden dann für die Regelung mit einbezogen. 
 
 **Hinweis:** Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es Ratsam diesen alleine zu Nutzen. 
 Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
+Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
+
+.. image:: ../images/zeroExport/zeroExportSettings.png
+  :width: 600
+  :alt: zeroExport Einstellungen - Default
+
 Konfiguration einer Gruppe
 **************************
 
-Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken. Es sollte sich ein Formular öffnen.
+Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken.
+
+Es sollte sich ein Formular öffnen.
 Siehe wie auf dem Bild.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupGeneral.png
@@ -61,9 +63,9 @@ Siehe wie auf dem Bild.
 
 ``Enabled`` gibt die Gruppe zur Regelung gemäß den eingestellten Parametern frei. 
 
-**ACHTUNG:** Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
-
 ``Name`` kann frei vergeben werden. Dieses Feld wird vom System nicht benutzt und dient der Identifizierung der Gruppe.
+
+**ACHTUNG:** Die Gruppe muss vor der Aktivierung vollständig konfiguriert sein.
 
 PowerMeter
 ***************
@@ -72,10 +74,10 @@ Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter ein
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
 
 Dies kann man mittels einem
-* Volkszähler (https://www.volkszaehler.org/), 
-* Hichi, 
-* Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
-* etc..
++[Volkszähler](https://www.volkszaehler.org/), 
++Hichi, 
++Tibber (https://tibber.com/) (macht nur Sinn wenn ihr schon bei Tibber seid), 
++etc..
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupPowermeter.png
   :width: 600
