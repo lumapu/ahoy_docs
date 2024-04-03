@@ -6,7 +6,7 @@ Ahoy verfügt über eine API-Schnittstelle. Hiermit ist es möglich Daten abzufr
 +---------+------------------------------------------------------------------+
 | Command | Description                                                      |
 +=========+==================================================================+
-| inverter/list | Liste an Inverter mit den aktuellen Daten des Inverters  |
+| "inverter/list" | Liste an Inverter mit den aktuellen Daten des Inverters  |
 +-----------------+----------------------------------------------------------+
 | inverter/id/0 | Liste an Daten des einen Inverters mit der ID 0          |
 +-----------------+----------------------------------------------------------+
