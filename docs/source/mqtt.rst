@@ -1,4 +1,4 @@
-MqTT
+MQTT
 ######
 
 Optional kann in Ahoy ein MqTT-Broker angegeben werden, der regelmäßig mit aktuellen Daten versorgt wird. Für Homeassistant gibt es das ``Autodiscover`` Feature, um automatisch ein Ahoy-DTU Gerät anzulegen.
