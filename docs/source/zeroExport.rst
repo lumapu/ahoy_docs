@@ -138,7 +138,7 @@ Hier befinden sich die Einstellungen für die Regelung.
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Erweiterte Einstellungen - Default
 
-``SetPoint (Watt)`` Setzt die Leistung um den geregelt werden soll (Standard 0 Watt).
+``SetPoint (Watt)`` Setzt die Leistung auf die geregelt werden soll (Standard 0 Watt). 100 regelt auf einen Bezug von 100 W, -600 auf eine Einspeisung von 600W.
 
 
 ``Refresh rate (sec)`` Aktualisierungsrate wie oft geregelt werden soll (Standard 10 sec.)
