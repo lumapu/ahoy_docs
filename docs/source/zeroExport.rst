@@ -129,8 +129,8 @@ Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktivi
   :width: 600
   :alt: zeroExport Einstellungen Gruppe Batterie - Default
 
-Fortgeschritten Einstellungen
-******************************
+Erweiterte Einstellungen
+************************
 
 Hier befinden sich die Einstellungen für die Regelung.
 
@@ -147,7 +147,7 @@ Hier befinden sich die Einstellungen für die Regelung.
 ``Power tolerances (Watt)`` Toleranz im dem nicht aktiv geregelt werden soll (Standard 10 Watt).
 
 
-``Group Power max (Watt)`` 
+``Group Power max (Watt)`` Maximalleistung die für die Gruppe gesetzt werden soll.
 
 
 ``Kp:`` P-Regler https://de.wikipedia.org/wiki/Regler#P-Regler_(P-Anteil)
