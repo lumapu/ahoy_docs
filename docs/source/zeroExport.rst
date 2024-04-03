@@ -94,16 +94,16 @@ Mögliche Schnittstellen:
 
 ``JSON Path:`` data.json?node_id=1 (Tibber)
 
-``Username:``admin (Tibber)
+``Username:`` admin (Tibber)
 
-``Password:``Passwort steht auf dem Gateway
+``Password:`` Passwort steht auf dem Gateway
 
 
 
 Inverter
 ***************
 
-Hier befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
+Im reiter Rubrik befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupInverter.png
   :width: 600
