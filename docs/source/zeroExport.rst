@@ -13,7 +13,7 @@ Wichtig zu wissen: Diese erweiterte Funktion ist derzeit nur für Modelreihen de
 Aber was ist denn genau 'Zero-Export'? Dafür ein kleiner Exkurs.
 
 Zero-Export
------------
+***********
 Unser Ahoy managed denn 0%-Einspeise-Modus (Zero Export).
 Es werden die Inverter abgefragt und erzeugte PV-Leistung abgefragt. Die Messwerte an einer Messstelle (z.B. Zähler, Strommessgeräte) werden parallel erfasst und miteinander verrechnet. Um schlussendlich den Wert der überschüssigen Leistung zu erhalten.
 
@@ -31,9 +31,8 @@ Was wird denn benötigt um so eine Regelung umzusetzen?
 + und um den Smart Meter auszulesen (z.B. Tibber, Hichi, Volkszähler, oder andere).
 
 
-
 Konfiguration
-***************
+-------------
 
 Hier gibt es die Möglichkeit bis zu fünf Gruppen zu hinterlegen. Diese haben hier denn Sinn mehrere Quellen der Verbraucher zu hinterlegen.
 Die Werte werden Summiert und werden dann für die Regelung mit einbezogen. 
