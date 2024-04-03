@@ -14,7 +14,7 @@ Aber was ist denn genau 'Zero-Export'? Dafür ein kleiner Exkurs.
 
 Zero-Export
 -----------
-Unser Ahoy ist im 0%-Einspeise-Modus (Zero Export) wie ein Manager.
+Unser Ahoy managed denn 0%-Einspeise-Modus (Zero Export).
 Es werden die Inverter abgefragt und erzeugte PV-Leistung abgefragt. Die Messwerte an einer Messstelle (z.B. Zähler, Strommessgeräte) werden parallel erfasst und miteinander verrechnet. Um schlussendlich den Wert der überschüssigen Leistung zu erhalten.
 
 Dieser Wert wird an den Wechselrichter zurückgeliefert, damit dieser sich an den aktuellen Haushaltsverbrauch anpassen kann. 
