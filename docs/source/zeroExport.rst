@@ -8,13 +8,13 @@ Das Modul 'Bedarfsoptimierte Leistungsregelung' (auch bekannt unter Zero-Export)
 Dazu wird die Leistung am Übergabepunkt (Zähler) gemessen und die Wechselrichter entsprechend geregelt.
 Wir zeigen euch, wie Ihr es umsetzen könnt und was bei solch ein Projekt darauf zu beachten ist.
 
-Wichtig zu wissen: Diese erweiterte Funktion ist derzeit nur für Modelreihen der ESP32s verfügbar.
+Wichtig zu wissen: Diese erweiterte Funktion ist derzeit nur für Modelreihen der ESP32-S3 verfügbar.
 
 Aber was ist denn genau 'Zero-Export'? Dafür ein kleiner Exkurs.
 
 Zero-Export
 ***********
-Unser Ahoy managed denn 0%-Einspeise-Modus (Zero Export).
+Unser Ahoy managed den 0%-Einspeise-Modus (Zero Export).
 Es werden die Inverter abgefragt und erzeugte PV-Leistung abgefragt. Die Messwerte an einer Messstelle (z.B. Zähler, Strommessgeräte) werden parallel erfasst und miteinander verrechnet. Um schlussendlich den Wert der überschüssigen Leistung zu erhalten.
 
 Dieser Wert wird an den Wechselrichter zurückgeliefert, damit dieser sich an den aktuellen Haushaltsverbrauch anpassen kann. 
@@ -24,20 +24,20 @@ Was wird denn benötigt um so eine Regelung umzusetzen?
 
 + DTU (Ahoy)
 
-+ denn passenden Wechselrichter
++ den passenden Wechselrichter
 
 + Smart Meter
 
-+ und um den Smart Meter auszulesen (z.B. Tibber, Hichi, Volkszähler, oder andere).
++ und um den Smart-Meter auszulesen (z.B. Tibber, Hichi, Volkszähler, oder andere).
 
 
 Konfiguration
 -------------
 
-Hier gibt es die Möglichkeit bis zu fünf Gruppen zu hinterlegen. Diese haben hier denn Sinn mehrere Quellen der Verbraucher zu hinterlegen.
-Die Werte werden Summiert und werden dann für die Regelung mit einbezogen. 
+Hier gibt es die Möglichkeit bis zu 6 Gruppen zu hinterlegen. Diese haben hier den Sinn mehrere Quellen der Verbraucher zu hinterlegen.
+Die Werte werden summiert und dann für die Regelung mit einbezogen. 
 
-**Hinweis:** Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es Ratsam diesen alleine zu Nutzen. 
+**Hinweis:** Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es ratsam diesen alleine zu nutzen. 
 Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
 Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
@@ -49,7 +49,7 @@ Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungs
 Konfiguration einer Gruppe
 **************************
 
-Um die Gruppe Einzustellen, kann man auf der rechten Seite das Zahnrad drücken.
+Um die Gruppe einzustellen, kann man auf der rechten Seite das Zahnrad drücken.
 
 Es sollte sich ein Formular öffnen.
 Siehe wie auf dem Bild.
@@ -69,7 +69,7 @@ Siehe wie auf dem Bild.
 PowerMeter
 ***************
 
-Um den aktuellen Verbrauch auch zu Messen, müssen hier jetzt die PowerMeter eingerichtet werden.
+Um den aktuellen Verbrauch auch zu messen, müssen hier jetzt die PowerMeter eingerichtet werden.
 
 Um von einem SMART-Meter die Daten abzufragen muss man sich an die Schnittstelle hängen.
 
@@ -102,7 +102,7 @@ Mögliche Schnittstellen:
 Inverter
 ***************
 
-Im reiter Rubrik befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
+Im Reiter Rubrik befinden sich die Einstellungen für die der Gruppe angehörigen Wechselrichter.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupInverter.png
   :width: 600
@@ -123,7 +123,7 @@ Im reiter Rubrik befinden sich die Einstellungen für die der Gruppe angehörige
 Batterie
 ***************
 
-Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktiviert ist, wird die Spannung der Batterie wird über jeden PV-Eingang 1 aller der Gruppe angehörenden Wechselrichter gemessen und mit den eingestellten Werten verglichen. Unterschreitet eine gemessene Spannung den Abschaltwert, werden alle der Gruppe angehörenden Wechselrichter ausgeschaltet. Sobald alle gemessenen Spannungen den Einschaltwert wieder überschreiten werden alle der Gruppe angehörenden Wechselrichter wieder eingeschaltet.
+Hier befinden sich die Einstellungen für den Batterieschutz. Wenn dieser aktiviert ist, wird die Spannung der Batterie  über jeden PV-Eingang 1 aller der Gruppe angehörenden Wechselrichter gemessen und mit den eingestellten Werten verglichen. Unterschreitet eine gemessene Spannung den Abschaltwert, werden alle der Gruppe angehörenden Wechselrichter ausgeschaltet. Sobald alle gemessenen Spannungen den Einschaltwert wieder überschreiten werden alle der Gruppe angehörenden Wechselrichter wieder eingeschaltet.
 
 .. image:: ../images/zeroExport/zeroExportSettingsGroupBattery.png
   :width: 600
@@ -166,7 +166,7 @@ Es existieren zwei Debugmöglichkeiten, die in der Konfiguration aktiviert werde
 
 - Log over MQTT
 
-Dabei werden je nach Modul der Regelung unterschiedliche JsonDatensätze ausgegeben.
+Dabei werden je nach Modul der Regelung unterschiedliche Json-Datensätze ausgegeben.
 
 *Änderungen und Irrtümer vorbehalten*
 
