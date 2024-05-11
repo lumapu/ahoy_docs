@@ -110,6 +110,9 @@ Hichi einrichten
 
 Was ist mit Target (L1, L2, L3, Sum) gemeint?
 =============================================
+Beim Auslesen des Powermeters kann berücksichtigt werden auf welche Phase geregelt werden soll.
+Somit ist es möglich auch speziell eine bestimmte Phase zu regeln. 
+Wichtig hierbei, das auch der Inverter auf diese Phase angeschlossen wird.
 
 Inverter
 ***************
