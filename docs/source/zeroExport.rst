@@ -37,8 +37,10 @@ Konfiguration
 Hier gibt es die Möglichkeit bis zu 6 Gruppen zu hinterlegen. Diese haben hier den Sinn mehrere Quellen der Verbraucher zu hinterlegen.
 Die Werte werden summiert und dann für die Regelung mit einbezogen. 
 
-**Hinweis:** Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es ratsam diesen alleine zu nutzen. 
-Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
+.. note::
+
+   Wenn Hichi/Tibber oder Volkszähler genutzt werden soll, ist es ratsam diesen alleine zu nutzen. 
+   Da hier die Daten direkt vom Stromzähler abgefragt werden, reicht es alleine die Gesamtleistung auszulesen.
 
 Die Einstellungen von Ahoy beinhalten eine Sektion ``Bedarfsoptimierte Leistungsregelung`` (hier zu sehen sind die Standardeintellungen):
 
