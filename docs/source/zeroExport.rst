@@ -106,6 +106,18 @@ Mögliche Schnittstellen:
 
 Tibber einrichten
 =================
+Da das Gerät im Normalbetrieb den gesamten Datenverkehr verschlüsselt, müssen die Daten im Rohformat bezogen werden. Dies ist nur im Setup-Modus möglich. In diesen Modus gelangt man ganz einfach, indem man das Gerät ausstöpselt, wieder einstöpselt und den Vorgang einmal wiederholt. Sobald die grüne LED leuchtet, öffnet das Gerät einen Zugangspunkt namens „Tibber Bridge“. Das Passwort ist auf dem QR-Code auf dem Gerät selbst aufgedruckt.
+
+Benutze nun dein Smartphone oder einen PC mit WiFi-Verbindung, um dich mit der Bridge zu verbinden. Wichtig ist, dass du deinem PC/Smartphone eine feste IP-Adresse gibst (10.133.70.10). Die Tibber Pulse Bridge selbst hat die IP 10.133.70.1 und bietet ein kleines nettes Webinterface. Die Zugangsdaten sind „admin“ und das auf dem Gerät aufgedruckte Passwort.
+
+Wenn man nun auf der Bridge ist, muss man auf der Registerkarte "Params" nach der Zeile "webserver_force_enable" suchen. Hier tragen Sie den Wert "true" ein.
+Wichtig, speichern Sie nun diese Änderung mit einem Klick auf den Button "Store params to flash".
+
+Nach einer Wartezeit von ca. 15 Sekunden muss die Bridge aus- und wieder eingesteckt werden. 
+Danach sollte man das Webinterface wieder über die normale vom DHCP-Server zugewiesene IP-Adresse erreichen können. 
+
+Wenn dies möglich ist, müssen hier keine weiteren Änderungen vorgenommen werden.
+
 
 Hichi einrichten
 =================
