@@ -97,7 +97,7 @@ Mögliche Schnittstellen:
 
 ``Password:`` Passwort des Gerätes
 
-Note
+.. note::
 Je nach wahl des Gerätes aus dem die Daten bezogen werden, ändert sich das Formular passend.
 Sollte hier etwas vermisst werden. Erstellt ein Issue auf Github.
 
