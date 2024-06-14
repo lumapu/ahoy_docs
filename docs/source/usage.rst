@@ -14,6 +14,19 @@ Weboberfläche
 -------------
 Was bedeutet was?
 
+
+Live
+=================
+
+History
+=================
+
+Webserial
+=================
+
+Settings
+=================
+
 System Config
 *************
 
@@ -44,3 +57,5 @@ Display Config
 Bedarfsoptimierte Leistungsregelung
 ************************************
 
+System
+=================
