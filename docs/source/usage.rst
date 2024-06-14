@@ -19,19 +19,19 @@ Weboberfläche
 Was bedeutet was?
 
 Live
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*******************
 Hier kann man aktuell den Live-Status der Inverter beobachten. 
 
 History
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*******************
 Eine Grafische auswertung in den letzten Stunden.
 
 Webserial
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*******************
 Aktuell eine Debug-Schnittstelle was in Ahoy aktuell passiert.
 
 Settings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*******************
 
 Diverse Einstellungen für Ahoy und die Plugins können hier bearbeitet werden.
 
@@ -77,5 +77,5 @@ Bedarfsoptimierte Leistungsregelung
 Von nöten für Akku und Zero-Export Enthusiast.
 
 System
-------------------------
+*******************
 Aktuelle System Infos.
