@@ -16,34 +16,35 @@ Was bedeutet was?
 
 
 Live
-=================
+****
 
 History
-=================
+******
 
 Webserial
-=================
+********
 
 Settings
-=================
-System Config
-*************
-Netzwerk
-*********
-Protection
-**********
-Inverter
 ********
+System Config
+=================
+Netzwerk
+=================
+Protection
+=================
+Inverter
+=================
 NTP Server
-**********
+=================
 Sonnen Auf/-Untergang
-**********
+=================
 MQTT
-**********
+=================
 Pinout Configuration
-********************
+====================
 Display Config
-**************
+=================
+
 Bedarfsoptimierte Leistungsregelung
 ************************************
 
