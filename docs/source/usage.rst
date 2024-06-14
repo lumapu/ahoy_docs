@@ -14,5 +14,33 @@ Weboberfläche
 -------------
 Was bedeutet was?
 
+System Config
+*************
+
+Netzwerk
+*********
+
+Protection
+**********
+
+Inverter
+********
+
 NTP Server
 **********
+
+Sonnen Auf/-Untergang
+**********
+
+MQTT
+**********
+
+Pinout Configuration
+********************
+
+Display Config
+**************
+
+Bedarfsoptimierte Leistungsregelung
+************************************
+
