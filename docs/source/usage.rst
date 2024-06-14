@@ -34,14 +34,21 @@ Diverse Einstellungen für Ahoy und die Plugins können hier bearbeitet werden.
 System Config
 -------------
 kleine Allgemeine Einstellungen
+A
+********
+
 
 Netzwerk
 -------------
 Alles rund um Thema Netzwerk
+B
+********
 
 Protection
 -------------
 Wenn Thema Sicherheit mal ganz groß geschrieben werden soll.
+C
+********
 
 Inverter
 -------------
