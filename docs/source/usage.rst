@@ -27,51 +27,51 @@ Webserial
 Aktuell eine Debug-Schnittstelle was in Ahoy aktuell passiert.
 
 Settings
-=================
+********
 
 Diverse Einstellungen für Ahoy und die Plugins können hier bearbeitet werden.
 
 System Config
-********
+-------------
 kleine Allgemeine Einstellungen
 
 Netzwerk
-********
+-------------
 Alles rund um Thema Netzwerk
 
 Protection
-********
+-------------
 Wenn Thema Sicherheit mal ganz groß geschrieben werden soll.
 
 Inverter
-********
+-------------
 Hier können die Invertert erfasst und Eingestellt werden. 
 Zusätzlich auch das Verhalten von Ahoy unter bestimmten Bedingungen.
 
 NTP Server
-********
+-------------
 Der Zeit-Server.
 
 Sonnen Auf/-Untergang
-********
+-------------
 Auf und Sonnenuntergang berchnung findet hier statt.
 
 MQTT
-********
+-------------
 Nur für Nerds.
 
 Pinout Configuration
-********
+-------------
 Wichtig für die jenigen die selbst ein Board gebaut haben und die Portion mit dem gewissen etwas heraus holen wollen.
 
 Display Config
-********
+-------------
 OLED, ePaper, LCD,... alles was das Herz begehrt.
 
 Bedarfsoptimierte Leistungsregelung
-************************************
+********
 Von nöten für Akku und Zero-Export Enthusiast.
 
 System
-=================
+********
 Aktuelle System Infos.
