@@ -20,20 +20,29 @@ Was bedeutet was?
 
 Live
 *******************
-Hier kann man aktuell den Live-Status der Inverter beobachten. 
+Das Dashboard bietet eine klare und detaillierte Übersicht über die Leistung Ihrer Solaranlagen.
+
+Obere Übersicht: Im oberen Kasten sehen Sie eine allgemeine Übersicht der aktuellen Solaranlage. Hier werden die wichtigsten Leistungsdaten wie die aktuelle Erzeugung und der Gesamtstatus der Anlage angezeigt.
+
+Detaillierte Moduldaten: Im unteren Bereich sind die einzelnen Solarmodule in vier blauen Blöcken dargestellt. Jede dieser Blöcke enthält spezifische Eigenschaften und Leistungsdaten der jeweiligen Module, sodass Sie den Zustand und die Effizienz jedes Moduls individuell überwachen können.
+
+Gesamtübersicht bei mehreren Anlagen: Wenn mehr als eine Solaranlage vorhanden ist, erscheint ganz oben ein Kasten in orange/brauner Farbe. Dieser Bereich zeigt die summierte aktuelle Leistung aller Anlagen an, wodurch Sie einen schnellen Überblick über die gesamte erzeugte Energie erhalten.
+
+.. note::
+
+  Die Daten werden live abgefragt, was bedeutet, dass sie stets aktuell sind und Ihnen jederzeit eine präzise Übersicht über den aktuellen Zustand und die Leistung Ihrer Solaranlagen bieten._.
 
 History
 *******************
-Eine Grafische auswertung in den letzten Stunden.
+In der 2D-Diagramm-Anzeige sehen Sie den Verlauf der Solaranlage in den letzten Stunden. Die x-Achse stellt die Zeit dar, während die y-Achse die Leistung in Watt anzeigt. Durch die Diagrammverläufe können Sie den Energieertrag und mögliche Schwankungen über den Tag hinweg nachvollziehen.
 
 Webserial
 *******************
-Aktuell eine Debug-Schnittstelle was in Ahoy aktuell passiert.
+Die Konsole zeigt allgemeine Debug-Daten an, die Entwicklern helfen, Fehler genauer nachzuvollziehen und zu beheben.
 
 Settings
 *******************
-
-Diverse Einstellungen für Ahoy und die Plugins können hier bearbeitet werden.
+Hier können Einstellungen vorgenommen werden, auf der Sie verschiedene Parameter für Ihre Solaranlage konfigurieren können.
 
 System Config
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
