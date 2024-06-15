@@ -1,12 +1,6 @@
 Einleitung
 ======================
 
-.. _installation:
-
-.. note::
-
-   Find out the `Test123`_.
-
 Zusammenbau
 --------------------------------
 
