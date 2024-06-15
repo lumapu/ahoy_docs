@@ -16,11 +16,14 @@ Live
 *******************
 Das Dashboard bietet eine klare und detaillierte Übersicht über die Leistung Ihrer Solaranlagen.
 
-Obere Übersicht: Im oberen Kasten sehen Sie eine allgemeine Übersicht der aktuellen Solaranlage. Hier werden die wichtigsten Leistungsdaten wie die aktuelle Erzeugung und der Gesamtstatus der Anlage angezeigt.
+   Obere Übersicht: 
+      Im oberen Kasten sehen Sie eine allgemeine Übersicht der aktuellen Solaranlage. Hier werden die wichtigsten Leistungsdaten wie die aktuelle Erzeugung und der Gesamtstatus der Anlage angezeigt.
 
-Detaillierte Moduldaten: Im unteren Bereich sind die einzelnen Solarmodule in vier blauen Blöcken dargestellt. Jede dieser Blöcke enthält spezifische Eigenschaften und Leistungsdaten der jeweiligen Module, sodass Sie den Zustand und die Effizienz jedes Moduls individuell überwachen können.
+   Detaillierte Moduldaten: 
+      Im unteren Bereich sind die einzelnen Solarmodule in vier blauen Blöcken dargestellt. Jede dieser Blöcke enthält spezifische Eigenschaften und Leistungsdaten der jeweiligen Module, sodass Sie den Zustand und die Effizienz jedes Moduls individuell überwachen können.
 
-Gesamtübersicht bei mehreren Anlagen: Wenn mehr als eine Solaranlage vorhanden ist, erscheint ganz oben ein Kasten in orange/brauner Farbe. Dieser Bereich zeigt die summierte aktuelle Leistung aller Anlagen an, wodurch Sie einen schnellen Überblick über die gesamte erzeugte Energie erhalten.
+   Gesamtübersicht bei mehreren Anlagen: 
+      Wenn mehr als eine Solaranlage vorhanden ist, erscheint ganz oben ein Kasten in orange/brauner Farbe. Dieser Bereich zeigt die summierte aktuelle Leistung aller Anlagen an, wodurch Sie einen schnellen Überblick über die gesamte erzeugte Energie erhalten.
 
 .. note::
 
