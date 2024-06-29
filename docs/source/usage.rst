@@ -54,13 +54,45 @@ Protection
 Wenn Thema Sicherheit mal ganz groß geschrieben werden soll.
 
 Inverter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------
 Hier können die Invertert erfasst und Eingestellt werden. 
 Zusätzlich auch das Verhalten von Ahoy unter bestimmten Bedingungen.
 
+
+Activate all new tags
+~~~~~~~~~~~~~~~~~~~~~
+
+- Match: ``Any version``
+- Version type: ``Tag``
+- Action: ``Activate version``
+
+Activate only new branches that belong to the ``1.x`` release
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Custom match: ``^1\.\d+$``
+- Version type: ``Branch``
+- Action: ``Activate version``
+
+Delete an active version when a branch is deleted
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Match: ``Any version``
+- Version type: ``Branch``
+- Action: ``Delete version``
+
 Diverse Werte und den Tageserzeugszähler am Mitternacht zurücksetzen.
----------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Die Werte werden um 0:00 Uhr zurück gesetzt.
+
+.. note::
+
+   You can also create two rules:
+   one to match ``-stable`` and other to match ``-release``.
+
+
+
+
 
 NTP Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
