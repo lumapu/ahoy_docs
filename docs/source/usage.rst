@@ -58,6 +58,10 @@ Inverter
 Hier können die Invertert erfasst und Eingestellt werden. 
 Zusätzlich auch das Verhalten von Ahoy unter bestimmten Bedingungen.
 
+Diverse Werte und den Tageserzeugszähler am Mitternacht zurücksetzen.
+---------------------------------------------------------------------
+Die Werte werden um 0:00 Uhr zurück gesetzt.
+
 NTP Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Der Zeit-Server.
