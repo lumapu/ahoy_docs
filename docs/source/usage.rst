@@ -54,13 +54,13 @@ Protection
 Wenn Thema Sicherheit mal ganz groß geschrieben werden soll.
 
 Inverter
---------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Hier können die Invertert erfasst und Eingestellt werden. 
 Zusätzlich auch das Verhalten von Ahoy unter bestimmten Bedingungen.
 
 
 Activate all new tags
-~~~~~~~~~~~~~~~~~~~~~
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
 
 - Match: ``Any version``
 - Version type: ``Tag``
