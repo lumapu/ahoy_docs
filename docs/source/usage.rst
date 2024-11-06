@@ -31,7 +31,7 @@ Das Dashboard bietet eine klare und detaillierte Übersicht über die Leistung I
 
 History
 *******************
-In der 2D-Diagramm-Anzeige sehen Sie den Verlauf der PV-Anlage in den letzten Stunden. Die x-Achse stellt die Zeit dar, während die y-Achse die Leistung in Watt anzeigt. Durch die Diagrammverläufe können Sie den Energieertrag und mögliche Schwankungen über den Tag hinweg nachvollziehen.
+In der 2D-Diagramm-Anzeige sehen Sie den Verlauf der PV-Anlage in den letzten Stunden. Die x-Achse stellt die Zeit dar, während die y-Achse die Leistung in Watt anzeigt. Durch die Diagrammverläufe können Sie den Energieertrag und mögliche Schwankungen über den Tag hinweg nachvollziehen. Die Tagesgrafik funktioniert nur wenn in den Einstellungen auch die Daten für Sunrise & Sunset eingetragen sind, ansonsten bleibt die Anzeige leer.
 
 Webserial
 *******************
