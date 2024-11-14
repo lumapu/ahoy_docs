@@ -9,7 +9,9 @@ Das Projekt ist Open Source und wird unter einer CC-BY-NC-SA 4.0 Lizenz auf `Git
 
    Dieses Projekt ist noch im Entwicklungsstadium
 
-Warning: HMS-XXXXW-2T WiFi inverters are not supported. They have a 'W' in their name and a DTU serial number on its sticker
+**Warning: HMS-XXXXW-2T WiFi inverters are not supported. They have a 'W' in their name and a DTU serial number on its sticker
+
+Achtung Vorsicht: HMS-XXXXW-2T WiFi Wechselrichter werden nicht unterstützt. Sie haben ein 'W' im Modellnamen und eine DTU-Seriennummer auf dem Aufkleber.**
 
 Inhalte
 --------
